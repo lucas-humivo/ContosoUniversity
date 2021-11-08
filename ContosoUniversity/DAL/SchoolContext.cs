@@ -7,6 +7,7 @@ namespace ContosoUniversity.DAL
     public class SchoolContext : DbContext
     {
         public DbSet<Course> Courses { get; set; }
+        public DbSet<Person> People { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Instructor> Instructors { get; set; }
